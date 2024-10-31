@@ -105,6 +105,54 @@
                     </div>
                     
                 </fieldset>
+
+                <fieldset class="guardia">
+                    <legend>Informações do responsável</legend>
+
+                    <div class="input-wrapper">
+                        <label for="guardian">Nome do responsável</label>
+                        <input type="text" name="guardian" id="guardian" placeholder="Samuel Felipe">
+                        <small>Principal responsável legal e contato de emergência</small>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="phone">Telefone</label>
+                        <input type="tel" name="phone" id="phone" placeholder="(12) 9 1234-5678">
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="mail">E-mail</label>
+                        <input type="email" name="mail" id="mail" placeholder="email@dominio.com" required>
+                        <div class="error">
+                            <img src="assets/icons/error-circle.svg" alt="Circulo vermelho de erro">
+                            <span>Insira um e-mail válido</span>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset class="enroll-option">
+                    <legend>opções de matrícula</legend>
+                    
+                    <div class="input-wrapper">
+                        <label>Selecione o turno de estudo</label>
+                        
+                        <div class="radio-wrapper">
+                            <div class="radio-inner">
+                                <div class="radio-image"></div>
+                                <input type="radio" name="study-shift" id="morning" value="morning">
+                                <img src="assets/icons/sun-cloud-02.svg" alt="imagem de um sol com nuvens">
+                                <label for="morning">Manhã</label>
+                            </div>
+    
+                            <div class="radio-inner">
+                                <div class="radio-image"></div>
+                                <input type="radio" name="study-shift" id="evening" value="evening">
+                                <img src="assets/icons/sun-02.svg" alt="imagem de um sol">
+                                <label for="evening">Tarde</label>
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
                 </form>
             </div>
         </main>

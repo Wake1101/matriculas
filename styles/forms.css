@@ -21,3 +21,6 @@ fieldset + fieldset {
     margin-top: 3rem;
 }
 
+input[type="file"]:hover {
+    cursor: pointer;
+}
