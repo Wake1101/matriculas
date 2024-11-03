@@ -24,3 +24,9 @@ fieldset + fieldset {
 input[type="file"]:hover {
     cursor: pointer;
 }
+
+.actions-wrapper {
+    margin-top: 3rem;
+    display: flex;
+    gap: 1rem;
+}
